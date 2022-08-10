@@ -1,0 +1,138 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url(https://fonts.googleapis.com/css?family=Oswald:regular,700&display=swap&subset=cyrillic-ext);
+
+@font-face {
+	font-family: 'Match';
+	src: url('MatchBold.woff2') format('woff2'),
+		url('MatchBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ------------------------------ */
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	background-color: bisque;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 48px;
+	text-align: center;
+	font-family: 'Match';
+	margin: 0px 0px 30px 0px;
+}
+
+.text {
+	margin: 0px 0px 15px 0px;
+	text-align: justify;
+	text-indent: 40px;
+}
+
+.title-image {
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+}
+
+.text-image {
+	margin: 0px 0px 40px 0px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.image-one,
+.image2,
+.image3 {
+	display: block;
+	margin: 0px auto 5px auto;
+}
+
+.image-one {
+	width: 830px;
+	height: 480px;
+}
+
+.image2 {
+	width: 678px;
+	height: 482px;
+}
+
+.image3 {
+	width: 710px;
+	height: 324px;
+}
+
+.foot {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.foot-text {
+	padding: 0px 0px 10px 0px;
+}
+
+span {
+	text-decoration: underline;
+}
