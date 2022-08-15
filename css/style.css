@@ -105,24 +105,12 @@ h1 {
 .image-one,
 .image2,
 .image3 {
+	max-width: 100%;
 	display: block;
 	margin: 0px auto 5px auto;
 }
 
-.image-one {
-	width: 830px;
-	height: 480px;
-}
 
-.image2 {
-	width: 678px;
-	height: 482px;
-}
-
-.image3 {
-	width: 710px;
-	height: 324px;
-}
 
 .foot {
 	text-align: center;
